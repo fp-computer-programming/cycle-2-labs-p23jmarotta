@@ -8,8 +8,8 @@ d = -4
 variables = [a,b,c,d]
 
 for num in variables:
-    if num%2 == 0:
-        print('Number is even')
+    if num % 2 == 0:
+        print(f'{num} is even')
     else:
-        print('Number is odd')
+        print(f'{num} is odd')
 
